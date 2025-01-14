@@ -1,0 +1,6 @@
+- name: Set up Patroni cluster
+  hosts: all
+  become: yes
+  gather_facts: no
+  roles:
+    - patroni

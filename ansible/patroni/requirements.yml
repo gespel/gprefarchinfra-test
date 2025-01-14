@@ -1,0 +1,5 @@
+- src: git+https://github.com/gespel/gprefarchinfra.git
+  version: main
+  name: patroni
+  scm: git
+  path: ansible/postgres
