@@ -2,4 +2,3 @@
   version: main
   name: patroni
   scm: git
-  path: ansible/postgres
