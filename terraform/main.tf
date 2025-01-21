@@ -8,5 +8,5 @@ module "postgres" {
     gcloud_machine_type_main = "e2-standard-4"
     gcloud_machine_type_etcd = "e2-standard-2"
     gcloud_zones = ["europe-west10-a", "europe-west10-a", "europe-west10-a"]
-    source = "git::https://github.com/gespel/gprefarchinfra.git//tf/postgres?ref=main"
+    source = "git::https://github.com/gespel/gprefarchinfra.git//terraform/postgres?ref=main"
 }
