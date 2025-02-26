@@ -1,6 +1,6 @@
-module "oop-writer" {
+/*module "oop-writer" {
   source = "git::https://github.com/gespel/gprefarchinfra.git//terraform/oop-writer-test?ref=main"
-}
+}*/
 
 /*module "k8s" {
   cluster-name = "psi-test-cluster"
@@ -21,3 +21,7 @@ module "postgres" {
     gcloud_zones = ["europe-west10-a", "europe-west10-a", "europe-west10-a"]
     source = "git::https://github.com/gespel/gprefarchinfra.git//terraform/postgres?ref=main"
 }*/
+
+module "jenkins" {
+    source = "git::https://github.com/gespel/gprefarchinfra.git//terraform/jenkins?ref=main"
+}
